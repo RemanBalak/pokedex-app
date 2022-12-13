@@ -1,0 +1,55 @@
+body {
+  background-color: rgba(238, 238, 192, 0.858);
+}
+:root {
+  --body-background-color: #fff;
+  --body-text-color: #000;
+  --font-weight-headings: 300;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--body-background-color);
+  color: var(--body-text-color);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 10px;
+}
+h1 {
+  font-size: 30px;
+  font-family: 'Londrina Solid', cursive;
+  font-weight: var(--font-weight-headings);
+}
+h2 {
+  font-size: 24px;
+  font-weight: var(--font-weight-headings);
+}
+h3 {
+  font-size: 18px;
+  font-weight: var(--font-weight-headings);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.pokemon-button {
+  background-color: lightgrey;
+  border: none;
+  color: black;
+  display: inline;
+  margin: 4px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+}
+
+.pokemon-button:hover {
+  background-color: steelblue;
+  color: white;
+  cursor: pointer;
+}
